@@ -1,0 +1,1 @@
+ -n 12 -localonly -localhost DESKTOP-82U95MQ -envall -mapall "C:\Program Files\Altair\2021.2\feko\bin\feko_mkl.csv.impi.exe" "halfwave_fr_1_ada_1" "--no-total-progress-output" "--run-from-gui"

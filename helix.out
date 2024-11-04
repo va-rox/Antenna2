@@ -1,0 +1,167 @@
+Altair Feko - Solver (par) Version 2021.2-8999 from 2021-08-18
+          Altair Feko - PREFEKO Version 2021.2-8999 from 2021-08-18 [FEK: default 183; used 183] BINARY
+          CADFEKO version 2021.2-9552 (x64) from 2021-08-20
+          Copyright (c) 1999-2014 Altair Development S.A. (Pty) Ltd
+          Copyright (c) 2014-2021 Altair Engineering, Inc.
+          Intel(R) MKL version 2018.0.4 (build 20180808) on Intel(R) Advanced Vector Extensions 2 (Intel(R) AVX2) enabled processors, Intel(R) 64 architecture (1 thread)
+Computer: PC WIN64 EM64T MKL IMPI -- DESKTOP-82U95MQ
+          Microsoft Windows 10 vNEXT  (Build 22631), Version 10.0.22631 x64 (SP 0.0)
+          12th Gen Intel(R) Core(TM) i5-12500H; GenuineIntel family 6 model 10 stepping 3 brand id 0
+          1 physical CPU with a total of 16 processors found (multi-core CPU with max. 12 cores per physical CPU)
+Threads:  OpenMP threading not used
+Date:     2024-11-01 20:23:56                     
+File:     helix
+Memory:   Unlimited, system allows maximum usage of 1.291 GByte
+          (for parallel runs memory limit is per process)
+          (installed memory 15.692 GByte, thereof free 2.977 GByte)
+Md5 check:CF56E2AA66823FFF024454DF67003792
+MD5 total:44900A450DA9D8F4515AF0DA657B5239
+Licence:  Altair Simulation Products
+
+Number of parallel processes:      12 on 1 CPUs
+------------------------------------------------------------------------------------
+ Process |                    Hostname                    | No. of  | Shared memory
+         |                                                | threads | rank | group
+------------------------------------------------------------------------------------
+       0 | DESKTOP-82U95MQ                                |       1 |    0 |     0
+       1 | DESKTOP-82U95MQ                                |       1 |    1 |     0
+       2 | DESKTOP-82U95MQ                                |       1 |    2 |     0
+       3 | DESKTOP-82U95MQ                                |       1 |    3 |     0
+       4 | DESKTOP-82U95MQ                                |       1 |    4 |     0
+       5 | DESKTOP-82U95MQ                                |       1 |    5 |     0
+       6 | DESKTOP-82U95MQ                                |       1 |    6 |     0
+       7 | DESKTOP-82U95MQ                                |       1 |    7 |     0
+       8 | DESKTOP-82U95MQ                                |       1 |    8 |     0
+       9 | DESKTOP-82U95MQ                                |       1 |    9 |     0
+      10 | DESKTOP-82U95MQ                                |       1 |   10 |     0
+      11 | DESKTOP-82U95MQ                                |       1 |   11 |     0
+------------------------------------------------------------------------------------
+
+
+Spice Engine:  HyperSpice Version 2021-55723 from 2020-11-29
+
+                    Linear and curvilinear segments are used
+                                 1 linear segments
+                               113 curvilinear segments
+
+          Surface of all triangles in m*m:     2.32712E+04
+
+          Length of the segments in m:         1.95828E+02
+
+
+                                DATA FOR MEMORY USAGE
+
+ Number of metallic triangles:              39                                max. triangles:    MAXNDR    =       39
+ Number of dielectric triangles:             0
+ Number of aperture triangles:               0
+ Number of RL-GO triangles:                  0
+ Number of windscreen triangles:             0
+ Number of FEM surface triangles:            0
+ Number of modal port triangles:             0
+ Number of metallic segments:              114                                max. segments:     MAXNSEG   =      114
+ Number of combined MoM/MTL segments:        0
+ Number of dielectr./magnet. cuboids:        0                                max. cuboids:      MAXNQUA   =        0
+ Number of tetrahedra:                       0                                max. tetrahedra:   MAXNTETRA =        0
+ Number of edges in PO region:               0                                max. edges:        MAXPOKA   =        0
+ Number of wedges in PO region:              0                                max. wedges:       MAXPOKL   =        0
+ Number of Fock regions:                     0                                max. Fock regions: MAXFOGE   =        0
+ Number of UTD triangles:                    0
+ Number of polygonal surfaces:               0                                max. surfaces:     MAXPOLYF  =        0
+                                                                              max. corner pts.:  MAXPOLYP  =        0
+ Number of UTD cylinders:                    0
+
+ Number of metallic edges (MoM):            47  unknown:       47 (electr.)   max. edges:        MAXNKA    =       47
+                                             0  unknown:        0 (magnet.)
+ Number of metallic edges (PO):              0  unknown:        0 (electr.)
+                                                unknown:        0 (magnet.)
+ Number of dielectric edges (MoM):           0  unknown:        0 (electr.)
+                                             0                  0 (magnet.)
+ Number of dielectric edges (PO):            0  unknown:        0 (electr.)
+                                                unknown:        0 (magnet.)
+ Number of aperture edges (MoM):             0  unknown:        0 (magnet.) 
+ Number of edges FEM/MoM surface:            0  unknown:        0 (electr.)
+                                             0                  0 (magnet.)
+ Number of nodes between segments:         113  unknown:      113             max. nodes:        MAXNKNO   =      181
+ Number of connection points:                1  unknown:        1             max. conn.:        MAXNV     =       39
+ Number of dielectric cuboids:               0  unknown:        0             max. cuboids:      MAXNQUA   =        0
+ Number of magnetic cuboids:                 0  unknown:        0
+ Number of dielectric faces (VEP):           0  unknown:        0
+ Number of magnetic faces (VEP):             0  unknown:        0
+
+ Number of basis funct. for MoM:           161  unknown:      161             max. basisf.       MAXNZEILE =      161
+ Number of basis funct. for PO:              0  unknown:        0             max. basisf.       MAXNKAPO  =        0
+
+ read from input file:
+PS       0    0    3    1    0 1.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from input file:
+CG      -1    0   -1    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00-1.000E+00-1.000E+00 0.000E+00 0.000E+00
+ read from input file:
+DI       0    0   -1    0    0 1.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 1.000E+03 0.000E+00 0.000E+00
+ read from input file:
+PW       0    0    0    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from input file:
+A1       0    3    0    0    0 1.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 5.000E+01 0.000E+00 0.000E+00
+ read from input file:
+FR      21    0    0    0    0 3.464E+08 0.000E+00 5.196E+08 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from buffer:
+NC       0    0    0    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from buffer:
+DA       0    0    0    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from buffer:
+DA       0    0    0    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from buffer:
+OF       1    0    0    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from buffer:
+FF       1  181    1    0    0-1.800E+02 0.000E+00 2.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from buffer:
+DA       0    0    0    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from buffer:
+OF       1    0    0    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from buffer:
+FF       1  181    1    0    0-1.800E+02 9.000E+01 2.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from buffer:
+DA       0    0    0    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from buffer:
+OF       1    0    0    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from buffer:
+FF       1   37   73    0    0 0.000E+00 0.000E+00 5.000E+00 5.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ 
+ 
+      ==============
+      CONFIGURATION: StandardConfiguration1
+      ==============
+
+
+                                   DATA FOR DIELECTRIC MEDIA
+
+internal  relative     relative  conductivity   tan(delta)    tan(delta)    wavelength   mass density    volume     medium
+index  permittivity permeability   in S/m       (electric)    (magnetic)       in m       in kg/m^3      in m^3
+    0      1.00000      1.00000  0.00000E+00   0.00000E+00   0.00000E+00   8.65452E-01   1.00000E+03    infinite    Free space
+
+
+
+                    EXCITATION BY VOLTAGE SOURCE AT A SEGMENT
+
+ Name:                          VoltageSource1
+ Source index:                  1
+ Frequency in Hz:               FREQ =    3.46400E+08
+ Wavelength in m:               LAMBDA =  8.65452E-01
+ Open circuit voltage in V:     |U0| =    1.00000E+00 
+ Phase in degrees:              ARG(U0) =        0.00
+ Attached to port:              Segment port
+ Port at segment with label:    antenna.Wire3.Port1
+ Absolute number of segment:    1
+ Radius of segment in m:        5.77000E-01
+ Location of the port in m:     x =  1.03926E+01, y =  0.00000E+00, z =  1.15473E+00
+ Positive direction:            x =  0.00000E+00, y =  0.00000E+00, z =  1.00000E+00
+
+
+                         DATA FOR THE GREEN'S FUNCTION
+
+                                   free space
+
+
+     Segment 1 is too long (length/lambda= 2.66851E+00)
+ ERROR     114: Segmentation rules have been violated (wire segment is too long)
+
+Aborted: 2024-11-01 20:23:56                     
